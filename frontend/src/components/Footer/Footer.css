@@ -22,15 +22,15 @@
   align-items: start;
   gap: 20px;
 }
-.footer-content-left img {
+.footer-logo {
   width: 100%;
   max-width: 200px; /* Adjust as needed */
   height: auto;
 }
 
-/* Mobile-specific adjustments */
+/* Mobile view adjustments */
 @media screen and (max-width: 768px) {
-  .footer-content-left img {
+  .footer-logo {
     max-width: 120px; /* Smaller logo for mobile */
   }
 }
